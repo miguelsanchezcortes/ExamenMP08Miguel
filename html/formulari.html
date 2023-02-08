@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Miguel Sánchez Cortés">
+    <link rel="stylesheet" href="../css/formulari.css">
+    <title>Formulari Super</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li class="capsal"><a href="ProjecteMP04.html">Inici</a></li>
+            <li class="capsal"><a href="formulari.html">Formulari</a></li>
+            <li class="capsal"><a href="verdures.html">Verdures</a></li>
+            <li class="capsal"><a href="Carns.html">Carns</a></li>
+            <li class="capsal"><a href="peixos.html">Peixos</a></li>
+        </ul>
+    </header>
+    <h1>Formulari</h1>
+    <div>
+        <h4 class="part1">Vols registrar-te a la web per poder fer compres online?</h4>
+        <form>
+            <ul>
+              <li>
+               <label for="name">Nom:</label>
+               <input type="text" id="name" name="user_name" value="posa el teu nom aqui">
+              </li>
+              <li>
+                <label>Any de naixement:</label>
+                <input type="date" name="naixement">
+              </li>
+              <li>
+               <label for="mail">Correu electrónic:</label>
+               <input type="email" id="mail" name="user_mail" value="exemple@gmail.com">
+              </li>             
+              <li>
+                    Sexe:     
+              </li>
+              <li>
+                <input type="radio" name="hm" value="h" required> Home
+                <input type="radio" name="hm" value="d"> Dona
+                <input type="radio" name="hm" value="a"> Altres
+              </li>
+              <li>
+                <h4 class="part1">Valoració de la pàgina web</h4>
+              </li>
+              <li>
+                valora la pagina (Dolenta, Regular, Bona):
+                <input type="range" name="rango"
+                min="1" max="3" list="lista-rango">
+                <datalist id="lista-rango">
+                   <option value="1" label="Dolenta">
+                   <option value="2" label="Regular">
+                   <option value="3" label="Bona">
+                </datalist>
+              </li>
+              <li>
+              <label for="msg">Missatge:</label>
+              <textarea id="msg" name="user_message">Escriu qualsevol dubte, queixa o opinió que tinguis a dir</textarea>
+              </li>
+              <li class="button">
+                  <button type="submit">Envia</button>
+              </li>
+          </ul>
+           </form>
+    </div>
+    <br>
+    <br>
+    <footer>
+        
+      <h4>Ens podràs trobar per torrelló al carrer de Manlleu torrelló.</h4>
+      <h4>Qualsevol dubte o problema podeu trucar al telefon d'ajuda al client que es el següent</h4>
+      <h3>123456789</h3>
+      <h4 class="info_mapa">Aqui sota deixarè el mapa perquè hi pogueu arribar i veure on es troba</h4>
+      <div><iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3523.7550064707184!2d2.2689898787928713!3d42.04075817362223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a5253ca322f59b%3A0x4816a8c102a358d5!2sMercadona!5e0!3m2!1ses!2ses!4v1672306928191!5m2!1ses!2ses"
+          width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+  </div>
+  </footer>
+</body>
+</html>
