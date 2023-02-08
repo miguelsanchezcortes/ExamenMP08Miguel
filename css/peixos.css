@@ -1,0 +1,52 @@
+header{
+    background-color: green;
+    height: 50px;
+    
+}
+li {
+    margin-top: 15px;
+    float: left;
+    margin-right: 30px;
+    list-style-type: none;
+}
+h1{
+    text-align: center;
+}
+.contenidor_flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width:250px;
+    height:150px;
+}
+.Productes{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    border:auto;
+    float: left;
+    background-color: aqua;
+}
+footer{
+    border: 1px solid black;
+    border:auto;
+    background-color: black;
+    color: white;
+}
+.info_mapa{
+  text-align: right;
+}
+footer{
+    border: 1px solid black;
+    border:auto;
+    background-color: black;
+    color: white;
+}
+.info_mapa{
+  text-align: right;
+}
+.mapa{
+    margin-left: 77%;
+    margin-bottom: 1%;  
+}
