@@ -1,0 +1,74 @@
+header{
+    background-color: green;
+    height: 50px;
+    
+}
+img{
+    width:250px;
+    height:160px;
+}
+li {
+    margin-top: 15px;
+    float: left;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+h1{
+    text-align: center;
+}
+.info{
+    border: 1px solid black;
+    border:auto;
+    width: 400px;
+}
+.contenidor_flex{
+    display: flex;
+}
+img{
+    width:250px;
+    height:150px;
+}
+.novetats_verd{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    border:auto;
+    float: left;
+    background-color: greenyellow;
+}
+.novetats_carn{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    border:auto;
+    float: left;
+    background-color: orangered;
+}
+.novetats_peix{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    border:auto;
+    float: left;
+    background-color: aqua;
+}
+.novetats{
+    text-align: center;
+}
+footer{
+    border: 1px solid black;
+    border:auto;
+    background-color: black;
+    color: white;
+}
+.mapa{
+    margin-left: 77%;
+    margin-bottom: 1%;  
+}
+.info_mapa{
+    text-align: right;
+}
+
+
+
